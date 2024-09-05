@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portfólio | Sthefany Werneck - Fotógrafa</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav id="nav_bar">
+            <!-- Logo -->
+            <i class="fa-solid fa-camera" id="nav_logo"></i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <a  href="https://wa.me/5521981294153?text=Ol%C3%A1%20vim%20atrav%C3%A9s%20do%20site.%20Quero%20saber%20mais%20sobre%20seus%20servi%C3%A7os." class="btn-default" target="_blank">
+                Solicite aqui
+            </a>
+
+            <button id="responsive_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="responsive_menu">
+            <ul id="responsive_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>   
+            
+            <a href="https://wa.me/5521981294153?text=Ol%C3%A1%20vim%20atrav%C3%A9s%20do%20site.%20Quero%20saber%20mais%20sobre%20seus%20servi%C3%A7os." class="btn-default" target="_blank">
+                Solicite aqui
+            </a>
+        </div>
+    </header>
+    <!-- /header -->
+
+    <!-- main -->
+    <main id="content">
+
+        <!-- home-->
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">
+                    Sthefany Weneck
+                    <span>Fotógrafa</span>
+                </h1>
+                <!-- Description-->
+                <p class="description">
+                    "Fotografar, é colocar na mesma linha, a cabeça, o olho e o coração."<br> <b>Henri Cartier-Bresson</b>
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#services" class="btn-default">Ver catalogo</a>
+                    <a href="tel:+5521981294153" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone">
+                            </i>
+                        </button>
+                        (21) 98129-4153 <!-- Telephone Number-->
+                    </a>
+
+                </div>
+
+                <!-- Social media buttons-->
+                <div class="social-media-buttons">
+                    <a href="https://wa.me/5521981294153?text=Ol%C3%A1%20vim%20atrav%C3%A9s%20do%20site.%20Quero%20saber%20mais%20sobre%20seus%20servi%C3%A7os." target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/sthefanywerneckfotografia/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/sthefanywerneckfotografia" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>  
+            
+
+            <!-- Banner IMG-->
+            <div id="banner">
+                <div class="shape">
+                    <img src="./src/images/main-banner2.png" alt="">
+                </div>
+                
+            </div>       
+        </section>
+       <!-- /home --> 
+     
+        <!-- services-->
+        <section id="services">
+            <h2 class="section-title">Serviços</h2>
+            <h3 class="section-subtitle">Em Destaque</h3>
+
+            <div id="packs">
+                <!-- Pack 1-->
+                <div class="pack">
+                    <div class="pack-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div> 
+
+                    <img src="./src/images/pack-picture.png" class="pack-image" alt="Pack Picture">
+
+                    <h3 class="pack-title">
+                        Ensaio Externo Premium
+                    </h3>
+
+                    <span class="pack-description">
+                        Ensaio fotografico em um local de sua escolha<br>
+                        <b>Numero de fotos:</b> 30
+                    </span>   
+                    
+                    <!-- Avalatiation Pack-->
+                    <div class="pack-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(30+)</span>
+                    </div>
+
+                    <div class="pack-price">
+                        <h4>R$249,90</h4>
+                        <a  href="https://wa.me/5521981294153?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%2C%20me%20interessei%20pelo%20Ensaio%20Externo%20Premium." target="_blank" class="btn-default" >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>                       
+                    </div>
+              </div>
+                <!-- /Pack-->    
+
+                <!-- Pack 2-->
+                <div class="pack">
+                    <div class="pack-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div> 
+
+                    <img src="./src/images/pack-picture.png" class="pack-image" alt="Pack Picture">
+
+                    <h3 class="pack-title">
+                        Cobertura de Evento
+                    </h3>
+
+                    <span class="pack-description">
+                        Ensaio fotografico em eventos<br>
+                        <b>Numero de fotos:</b> Entrega de todas as fotos tiradas
+
+                    </span>   
+                    
+                    <!-- Avalatiation Pack-->
+                    <div class="pack-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(30+)</span>
+                    </div>
+
+                    <div class="pack-price">
+                        <h4>R$749,90</h4>
+                        <a  href="https://wa.me/5521981294153?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%2C%20me%20interessei%20pelo%20Ensaio%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Ensaio%20fotogr%C3%A1fico%20em%20eventos." target="_blank" class="btn-default" >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>                        
+                    </div>
+                </div>
+                <!-- /Pack-->    
+
+                <!-- Pack-->
+                <div class="pack">
+                    <div class="pack-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div> 
+
+                    <img src="./src/images/pack-picture.png" class="pack-image" alt="Pack Picture">
+
+                    <h3 class="pack-title">
+                        Ensaio Externo Econômico
+                    </h3>
+
+                    <span class="pack-description">
+                        Ensaio fotografico em um local de sua escolha<br>
+                        <b>Numero de fotos:</b> 15
+                    </span>   
+                    
+                    <!-- Avalatiation Pack-->
+                    <div class="pack-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(20+)</span>
+                    </div>
+
+                    <div class="pack-price">
+                        <h4>R$150,00</h4>
+                        <a  href="https://wa.me/5521981294153?text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site%2C%20me%20interessei%20pelo%20Ensaio%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Ensaio%20Externo%20Econ%C3%B4mico." target="_blank" class="btn-default" >
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>                       
+                    </div>
+                </div>
+                <!-- /Pack-->    
+
+              
+                 
+            </div>
+        </section>
+        <!-- services-->
+
+        <!-- testimonials-->
+         <section id="testimonials">
+            <img src="./src/images/testimonials-avatar.png" id="testimonials_profile" alt=""> 
+            
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre mim
+                </h3>
+
+                <div id="feedbacks">
+                    <!-- feedback-->
+                    <div class="feedback">
+                        <img src="./src/images/feedback-avatar.png" class="feedback-avatar" alt="" >
+
+                        <div class="feedback-content">
+                            <p>
+                                <b>Ingrid Souza:</b>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span> 
+                            </p>
+
+                            <p>
+                                "Maravilhosaaaaaaa,Obrigada.Minha filha já saiu de lá falando: mãe, chama ela pra fazer minha fotos de 15 anos! Rs"    
+                            </p>
+                        </div>
+                    </div>
+                    <!-- /feedback-->
+                    
+                    <!-- feedback-->
+                    <div class="feedback">
+                        <img src="./src/images/feedback-avatar.png" class="feedback-avatar" alt="" >
+
+                        <div class="feedback-content">
+                            <p>
+                                <b>Gabriel R</b>
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span> 
+                            </p>
+
+                            <p>
+                                "Trabalho top de mais \o/."    
+                            </p>
+                        </div>
+                    </div>
+                    <!-- /feedback-->   
+
+                    <!-- feedback-->
+                    <div class="feedback">
+                        <img src="./src/images/feedback-avatar.png" class="feedback-avatar" alt="" >
+
+                        <div class="feedback-content">
+                            <p>
+                                <b>Débora</b>  
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span> 
+                            </p>
+
+                            <p>
+                               "Lindaaaa, que trabalho perfeito. Muito obrigada."    
+                            </p>
+                        </div> 
+                    </div>
+                    <!-- /feedback-->   
+                </div>
+
+            </div>
+         </section>
+        <!-- /testimonials-->
+    </main>
+
+    <footer>
+        <img src="./src/images/wave.svg" alt="">   
+        
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024  Gabriel Nascimento Rangel
+            </span>    
+
+             <!-- Social media buttons-->
+             <div class="social-media-buttons">
+                <a href="https://wa.me/5521981294153?text=Ol%C3%A1%20vim%20atrav%C3%A9s%20do%20site.%20Quero%20saber%20mais%20sobre%20seus%20servi%C3%A7os." target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/sthefanywerneckfotografia/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/sthefanywerneckfotografia" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./src/javascript/script.js"></script>
+
+</html>
